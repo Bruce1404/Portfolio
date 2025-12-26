@@ -164,7 +164,6 @@ ul {
 .section {
     padding-top: 120px;
     padding-bottom: var(--spacing-2xl);
-    min-height: 100vh;
     position: relative;
 }
 
@@ -372,7 +371,6 @@ ul {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 5%;
     position: relative;
     padding-top: 120px;
 }
