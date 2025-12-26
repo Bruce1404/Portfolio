@@ -425,6 +425,11 @@ ul {
 }
 
 @media (max-width: 968px) {
+    .hero-section {
+        padding-top: 100px;
+        padding-bottom: var(--spacing-xl);
+    }
+
     .hero-wrapper {
         flex-direction: column-reverse;
         text-align: center;
@@ -433,6 +438,7 @@ ul {
 
     .hero-content {
         margin: 0 auto;
+        padding-bottom: var(--spacing-xl);
     }
 
     .hero-btns {
@@ -441,7 +447,10 @@ ul {
 
     .img-container {
         width: 280px;
-        height: 280px;
+        height: 320px;
+        /* Maintain portrait aspect */
+        max-width: 80vw;
+        /* Prevent overflow on very small screens */
     }
 }
 
